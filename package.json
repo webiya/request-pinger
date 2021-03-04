@@ -1,0 +1,21 @@
+{
+    "name": "request-pinger",
+    "version": "0.1.0",
+    "description": "Creates a request interval with initial timeout and number of intervals.",
+    "repository": " ",
+    "author": "or-yam, <oryamn@webiya.co.il>",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "interval",
+      "pinger",
+      "ping",
+      "ping-server",
+      "server-pinger",
+      "request-interval",
+      "request-pinger"
+    ]
+  }
