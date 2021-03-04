@@ -33,7 +33,7 @@ const request = async () => {
 
 initialWait = 500; // in milliseconds
 intervalWait = 1000; // in milliseconds
-intervalCounter = 5;
+initialCounter = 5;
 
-pinger(initialWait, intervalWait, intervalCounter, request, setLoading);
+pinger(initialWait, intervalWait, initialCounter, request, setLoading);
 ```

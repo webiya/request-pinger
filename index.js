@@ -2,12 +2,12 @@
  * Creates an interval of server requests with initial wait
  * @param {number} initialWait
  * @param {number} intervalWait
- * @param {number} intervalCounter
+ * @param {number} initialCounter
  * @param {function} request
  * @param {function} setLoading
  */
 
-export default async (initialWait, intervalWait, intervalCounter, request, setLoading) => {
+export default async (initialWait, intervalWait, initialCounter, request, setLoading) => {
   setLoading && setLoading(true);
   let counter = initialCounter;
   const pinger = setInterval(async () => {
